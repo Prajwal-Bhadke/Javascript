@@ -66,3 +66,5 @@ if (y > 10) {
 let A = 12;
 let result = A > 10 ? "yes" : "no";
 console.log(result);
+
+
