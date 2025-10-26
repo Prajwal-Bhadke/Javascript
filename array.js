@@ -12,7 +12,7 @@
 //     console.log(num.toUpperCase())
 // }
 
-// PRACTICE QUE 
+// PRACTICE QUE
 
 // let sum =0;
 // for (let val of arr){
@@ -28,7 +28,7 @@
 // }
 // console.log(aaa);
 
-//unshift 
+//unshift
 
 // let str = ["prajwal", "bhadke"];
 // console.log(str);
@@ -48,15 +48,18 @@
 // };
 // sum(3, 4);
 
-
-// forEach on array 
+// forEach on array
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 // arr.forEach((val, ind) => {
 //   console.log(val**2);
 // });
 
-
 // .map() on ARRAY
 
-// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let arr = [1, 2, 3];
+// const arr1 = arr.map((ele, idx, arr) => {
+//   return ele * 2;
+// });
+// console.log(arr1);
+// output : [2, 4, 9]

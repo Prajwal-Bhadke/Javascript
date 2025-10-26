@@ -21,6 +21,7 @@
 
 // console.log(para.setAttribute("id" , "newDiv"));
 
+
 //how to create and add new element using DOM
 
 // .append();
@@ -51,7 +52,7 @@
 
 // .after();
 
-//  adds new el outside and at after the node
+//  adds new el outside and after the node
 
 // let newbtn = document.createElement("button"); //created
 // newbtn.innerText = "Click Me"; // text added to button element
