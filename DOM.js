@@ -22,7 +22,7 @@
 // console.log(para.setAttribute("id" , "newDiv"));
 
 
-//how to create and add new element using DOM
+// how to create and add new element using DOM
 
 // .append();
 
