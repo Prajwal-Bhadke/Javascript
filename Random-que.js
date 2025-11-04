@@ -79,4 +79,56 @@
 
 // let arr2 = ["W", "B", "C", "D", "K", "A", "E", "T"];
 // arr2.sort((a, b) =>  a.localeCompare(b)); // ascending for str
-// console.log(arr2); 
+// console.log(arr2);
+
+// let abc = 2;
+// let a = !--abc; // NOT -1 abc(2) = 1 !1-> false abc -> (1) // 1 is truthy
+// let b = !--abc; // NOT -1 -> abc(1) = 0; !0 -> true // 0 is falsy
+// console.log(a, b);
+
+//  comma making diff in execution
+
+// function sum() {
+//   console.log("Prajwal 1");
+//   return 2 + 2;
+// }
+
+// function square() {
+//   console.log("prajwal 2");
+//   return 4 * 4;
+// }
+// let abc = (sum(), square());
+// console.log(abc);
+
+// OUTPUT : prajwal 1
+//        : prajwal 2
+//        : 16
+
+//You are using the comma operator ( , ).
+
+// The comma operator in JavaScript:
+// Evaluates all expressions from left to right
+// But returns only the value of the last expression
+// So even though both functions are executed,
+// only the last one’s return value is kept.
+
+/* WAP code where two strings will merge alternatively in
+ js like if string 1 is pawl and second is rja then is should
+  return prajwal  */
+
+// function str(str1, str2) {
+//   let result = "";
+//   let maxlen = Math.max(str1.length, str2.length);
+
+//   for (let i = 0; i < maxlen; i++) {
+//     if (i < str1.length) result += str1[i];
+//     if (i < str2.length) result += str2[i];
+//   }
+
+//   return result;
+// }
+// console.log(str("pawl", "rja"));
+
+// find maxlen word in string 
+
+let str = "prajwal having a bad time ";

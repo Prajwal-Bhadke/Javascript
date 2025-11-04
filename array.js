@@ -37,9 +37,9 @@
 
 // splice
 
-// let aaa = [250, 645, 300, 900, 50];
-// aaa.splice(2,2)
-// console.log
+let aaa = [250, 645, 300, 900, 50];
+aaa.splice(2,2)
+console.log(aaa)
 
 // ARROW FUNTION
 
