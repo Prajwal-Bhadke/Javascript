@@ -116,19 +116,24 @@
  js like if string 1 is pawl and second is rja then is should
   return prajwal  */
 
-// function str(str1, str2) {
-//   let result = "";
-//   let maxlen = Math.max(str1.length, str2.length);
+function str(str1, str2) {
+  let result = "";
+  let maxlen = Math.max(str1.length, str2.length);
 
-//   for (let i = 0; i < maxlen; i++) {
-//     if (i < str1.length) result += str1[i];
-//     if (i < str2.length) result += str2[i];
-//   }
+  for (let i = 0; i < maxlen; i++) {
+    if (i < str1.length) result += str1[i];
+    if (i < str2.length) result += str2[i];
+  }
 
-//   return result;
-// }
-// console.log(str("pawl", "rja"));
+  return result;
+}
+console.log(str("pawl", "rja"));
 
-// find maxlen word in string 
 
-let str = "prajwal having a bad time ";
+// reduce method 
+
+let a = [1, 2, 3, 4, 5];
+let b = a.reduce((acc, curr) => {
+  return acc + curr;
+});
+console.log(b);
