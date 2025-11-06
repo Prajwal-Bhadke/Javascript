@@ -63,3 +63,16 @@
 // });
 // console.log(arr1);
 // output : [2, 4, 9]
+
+
+// largest element in array 
+
+function lgno(array) {
+  return array.reduce((res, curr) => {
+    return res > curr ? res : curr;
+  });
+}
+
+let array = [12, 13, 14, 15, 155];
+let a = lgno(array);
+console.log(a);
